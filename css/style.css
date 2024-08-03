@@ -144,5 +144,20 @@ p {
 #main-nav ul {
     display: flex;
     justify-self: center;
+
+}
+#main-nav .social-icons {
+    justify-self: end;
+}
+#main-nav ul li a {
+    padding: 0.6rem;
+    font-weight: bold;
+
+}
+
+#main-nav ul li a.active {
+    background-color: var(--primary-color);
+    color: #fff;
+    border-radius: 5px;
     
 }
