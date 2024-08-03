@@ -136,5 +136,13 @@ p {
     grid-template-columns: 0.6fr 3fr 2fr;
     padding: 1rem;
     align-items: center;
+
+}
+#main-nav .logo {
+    width: 65px;
+}
+#main-nav ul {
+    display: flex;
+    justify-self: center;
     
 }
