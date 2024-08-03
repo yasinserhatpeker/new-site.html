@@ -181,6 +181,9 @@ p {
     border-radius: 5px;
 
 }
+
+/* header */
+
 #header {
     color: #fff;
     background: #333;
@@ -188,8 +191,8 @@ p {
     position: relative;
 }
 #header::before {
-    content: '';
-    background-image: url('../img/rowing.jpeg');
+    content:'';
+    background: url('../img/rowing.jpeg') no-repeat center center/cover;
     position: absolute;
     top: 0;
     left: 0;
@@ -197,5 +200,11 @@ p {
     height: 100%;
 
 }
+#header .header-container {
+    height: 60vh;
+    
+
+}
+
 
 
