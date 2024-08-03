@@ -23,5 +23,22 @@ body {
 }
 
 a {
+    color: var(--dark-color);
+    text-decoration: none;
+
+}
+
+ul {
+    list-style: none;
+
+}
+
+img {
+    width: 100%;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: 'Varela Round',sans-serif;
+    margin-bottom: .7rem;
+    line-height: 1.3;
     
 }
