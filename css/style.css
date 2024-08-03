@@ -65,9 +65,27 @@ p {
     background-color: var(--dark-color);
     color: #fff;
     padding: .4rem 1.6rem;
+    text-align: center;
 }
 
 .btn-light {background-color: var(--light-color);}
 .btn-dark {background-color: var(--dark-color);}
 .btn-primary {background-color: var(--primary-color);}
 .btn-secondary {background-color: var(--secondary-color);}
+
+.btn:hover {
+    opacity: 0.7;
+
+}
+
+.btn-block {
+    display: block;
+    width: 100%;
+    text-align: center;
+
+}
+
+.bg-primary {background-color: var(--primary-color); color: #fff;}
+.bg-light {background-color: var(--light-color); color: var(--dark-color);}
+.bg-dark {background-color: var(--dark-color); color:#fff;}
+
