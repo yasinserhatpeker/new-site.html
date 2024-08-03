@@ -140,6 +140,7 @@ p {
 }
 #main-nav .logo {
     width: 65px;
+    
 }
 #main-nav ul {
     display: flex;
@@ -168,6 +169,7 @@ p {
 #main-nav ul li a:hover {
     background-color: var(--light-color);
     color: var(--dark-color);
+    transition: 0.5s;
 
     
     
@@ -179,4 +181,21 @@ p {
     border-radius: 5px;
 
 }
+#header {
+    color: #fff;
+    background: #333;
+    padding: 2rem;
+    position: relative;
+}
+#header::before {
+    content: '';
+    background-image: url('../img/rowing.jpeg');
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+}
+
 
