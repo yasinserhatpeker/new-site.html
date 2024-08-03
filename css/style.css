@@ -122,4 +122,19 @@ p {
 
 }
 
+/* navbar */
 
+#main-nav {
+    background-color: #fff;
+    position: sticky;
+    top: 0;
+    z-index: 3;
+}
+
+#main-nav .container {
+    display: grid;
+    grid-template-columns: 0.6fr 3fr 2fr;
+    padding: 1rem;
+    align-items: center;
+    
+}
