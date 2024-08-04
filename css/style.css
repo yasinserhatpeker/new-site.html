@@ -236,6 +236,18 @@ p {
     z-index: 2;
 }
 
+#article-grid {
+    display: grid;
+    grid-template-columns: repeat(3,0.5fr);
+    grid-template-rows: repeat(2, 0.5fr);
+    
+}
+
+#article-grid .card {
+   margin: 4rem;
+    
+}
+
 
 
 
