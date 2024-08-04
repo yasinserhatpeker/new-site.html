@@ -277,10 +277,20 @@ p {
 #footer-grid a {
     color: #fff;
 }
+
 #footer-grid .footer-container {
     display: grid;
     grid-template-columns: repeat(4,1fr);
-    gap:1.3rem;
+    gap: 1.3rem;
+    
+}
+#footer-grid .footer-container >*:last-child{
+   background-color: #444;
+   grid-column: 1 /span 4;
+   padding: .5rem;
+   text-align: center;
+
+
    
 
 }
