@@ -282,7 +282,7 @@ p {
     display: grid;
     grid-template-columns: repeat(4,1fr);
     gap: 1.3rem;
-    
+
 }
 #footer-grid .footer-container >*:last-child{
    background-color: #444;
@@ -327,3 +327,7 @@ p {
     transition: 0.5s;
     opacity: 0.7;
 }
+
+/* articel.html */
+
+
