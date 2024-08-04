@@ -362,6 +362,18 @@ p {
      
 
 }
+#article .container .categories {
+    background-color: #fff;
+    
+    
+}
+#article .container .categories li {
+    border-bottom: 1px dotted #555;
+    padding: 1rem;
+}
+#article .container .content {
+    background-color: #fff;
+}
 
 
 
