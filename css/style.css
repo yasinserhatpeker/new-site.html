@@ -262,6 +262,28 @@ p {
     padding: 1rem;
 }
 
+/*footer */
+
+#footer-grid {
+    background-color: var(--dark-color);
+    color: #fff;
+
+}
+
+#footer-grid img {
+    width: 150px;
+}
+
+#footer-grid a {
+    color: #fff;
+}
+#footer-grid .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap:1.3rem;
+   
+
+}
 
 
 
