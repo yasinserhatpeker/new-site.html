@@ -375,5 +375,16 @@ p {
     background-color: #fff;
 }
 
+#article .meta {
+    background-color: gainsboro;
+  color: var(--dark-color);
+    font-weight: bold;
+    font-size: 15px;
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+margin-top: 1.5rem;
+
+ }
+
+
 
 
