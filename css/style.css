@@ -120,7 +120,7 @@ p {
 
 .card {
     background-color: #fff;
-    padding: 1rem;
+   padding: 1rem;
 }
 
 .card-primary {
@@ -240,7 +240,7 @@ p {
     display: grid;
     grid-template-columns: repeat(3,0.5fr);
     grid-template-rows: repeat(2, 0.5fr);
-    gap: 10px;
+    
     
 }
 
@@ -253,7 +253,7 @@ p {
 .article {
     margin-top: 4rem;
     margin-left: 4rem;
-}
+ }
 
 
 
