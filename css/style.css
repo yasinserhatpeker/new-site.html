@@ -330,4 +330,23 @@ p {
 
 /* articel.html */
 
+#article .container {
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    gap: 1.3rem;
+    background-color: var(--light-color);
+
+}
+#article .container h1 {
+    font-weight: bold;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#article .container h2 {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
 
