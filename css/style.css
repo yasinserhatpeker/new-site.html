@@ -240,10 +240,12 @@ p {
     display: grid;
     grid-template-columns: repeat(3,0.5fr);
     grid-template-rows: repeat(2, 0.5fr);
+    gap: 10px;
     
 }
 
 #article-grid .card {
+   
    margin: 4rem;
     
 }
