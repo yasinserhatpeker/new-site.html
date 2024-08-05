@@ -236,7 +236,7 @@ p {
     z-index: 2;
 }
 
-#article-grid {
+#article-grid .articles-container{
     display: grid;
     grid-template-columns: repeat(3,0.5fr);
     gap: 1rem;

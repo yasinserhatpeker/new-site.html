@@ -7,9 +7,34 @@ display: none;
     gap:1.2rem;
 
 }
+#main-nav ul li {
+    margin: 1.2rem;
+}
+
 
 #main-nav ul, img {
     justify-self: center;
 
+}
+
+
+
+#article-grid .articles-container{
+    grid-template-columns: repeat(2,1fr);
+  
+    
+    
+}
+
+@media (max-width: 600px) {
+    #header .header-container {
+        grid-template-columns: 1fr;
+    }
+    #article-grid .articles-container{
+        grid-template-columns: 1fr;
+      
+        
+        
+    }
 }
 
