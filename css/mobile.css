@@ -47,5 +47,10 @@ display: none;
        grid-column: 1;
     
     }
+    #footer-grid .footer-container >* {
+        border-bottom: 1px dotted #444;
+        padding-bottom: 1rem;
+
+    }
 }
 
