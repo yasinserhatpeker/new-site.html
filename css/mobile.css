@@ -1,0 +1,15 @@
+#main-nav .social-icons{
+display: none;
+}
+
+#main-nav .container {
+    grid-template-columns: 1fr;
+    gap:1.2rem;
+
+}
+
+#main-nav ul, img {
+    justify-self: center;
+
+}
+
