@@ -36,5 +36,16 @@ display: none;
         
         
     }
+    #footer-grid .footer-container {
+        
+        grid-template-columns: 1fr;
+        
+    
+    }
+    #footer-grid .footer-container >*:last-child {
+        
+       grid-column: 1;
+    
+    }
 }
 
