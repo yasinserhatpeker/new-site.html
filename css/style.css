@@ -17,7 +17,7 @@ html {
 
 }
 body {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 1.6rem;
     line-height: 1.5;
     background-color: var(--light-color);
@@ -383,6 +383,10 @@ p {
 font-family:Verdana, Geneva, Tahoma, sans-serif;
 margin-top: 1.5rem;
 
+ }
+
+ h1,h2,h3,h4,h5,h6, p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
  }
 
 
